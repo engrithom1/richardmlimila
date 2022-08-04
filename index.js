@@ -47,5 +47,5 @@ app.use(function(req, res, next) {
     }
   });
 
-app.listen(port, () => console.log(`listening on port ${port}`));
-//app.listen();
+//app.listen(port, () => console.log(`listening on port ${port}`));
+app.listen();
